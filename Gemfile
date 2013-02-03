@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.10'
+gem 'rails', '3.2.11'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -11,7 +11,7 @@ group :production do
   gem 'pg'
 end
 
-gem 'pg'
+#gem 'pg'
 gem 'less-rails'
 #gem 'libv8', '3.11.8.4'
 #gem 'therubyracer', '0.11.0'
