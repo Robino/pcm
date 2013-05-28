@@ -27,9 +27,10 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
-  gem 'twitter-bootstrap-rails'
+  #gem 'twitter-bootstrap-rails'
 end
-
+#Bug sur les affichages des polices qui disparaissent en production https://github.com/seyhunak/twitter-bootstrap-rails/issues/91
+gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
